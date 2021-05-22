@@ -13,7 +13,8 @@ import com.cricket.ipl.service.TeamService;
 
 @RestController
 @CrossOrigin
-public class TeamController {
+public class TeamController 
+{
 
 	@Autowired
 	public TeamService teamService;
